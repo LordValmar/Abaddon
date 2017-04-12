@@ -1,0 +1,22 @@
+
+04/2017 ------------------------------------------------------------------------
+loot.xml
+ - changed lootcontainer id=97-102 to id=225-229 so they have loot and
+   disintegrate when looted.
+ - changed all instances of "gasCan" to yield 2-10 gas per loot
+ - reduced loot from
+   o lootcontainer id="40" (ammo box)
+   o lootgroup name="gunsafeArmor"
+   o lootgroup name="gunsafeMisc"
+   o lootgroup name="gunsafeMisc"
+   o lootcontainer id="42"
+   o lootcontainer id="50"
+
+blocks.xml
+ - changed block id=269,id=1341-1345 to use lootlist id=225-229
+ - reduced "cntCar03BlueDamage1" gasCan loot
+ - reduced "cntCar03Damage2" gasCan loot
+
+Localization - Quest.txt 
+- Changed "tutorialTipQuest01" to reflect Nightmare Edition
+--------------------------------------------------------------------------------
