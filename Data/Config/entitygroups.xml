@@ -13,28 +13,30 @@
     <entity name="zombieSteveCrawler" prob="0.05"/>
     <entity name="Bloated Walker" prob="0.07"/>
     <entity name="Scorched Rusher" prob="0.03"/>
+    <entity name="hornet" prob="0.02"/>
     <entity name="zombieBoeTank"/>
-    <entity name="zombieBoeSpider"/>
+    <entity name="zombieBoeSpider" prob="0.05"/>
     <entity name="zombieBoeBomber"/>
     <entity name="zombieJoeTank"/>
-    <entity name="zombieJoeSpider"/>
+    <entity name="zombieJoeSpider" prob="0.05"/>
     <entity name="ZombieRavager"/>
     <entity name="zombieJoeBomber"/>
     <entity name="zombieArleneTank"/>
-    <entity name="zombieArleneSpider"/>
+    <entity name="zombieArleneSpider" prob="0.05"/>
     <entity name="zombieArleneBomber"/>
     <entity name="zombieDarleneTank"/>
-    <entity name="zombieDarleneSpider"/>
+    <entity name="zombieDarleneSpider" prob="0.05"/>
     <entity name="zombieDarleneBomber"/>
     <entity name="zombieMarleneTank"/>
-    <entity name="zombieMarleneSpider"/>
+    <entity name="zombieMarleneSpider" prob="0.05"/>
     <entity name="zombieMarleneBomber"/>
     <entity name="zombieYoTank"/>
-    <entity name="zombieYoSpider"/>
+    <entity name="zombieYoSpider" prob="0.05"/>
     <entity name="zombieYoBomber"/>
     <entity name="zombieSteveTank"/>
-    <entity name="zombieSteveSpider"/>
+    <entity name="zombieSteveSpider" prob="0.05"/>
     <entity name="zombieSteveBomber"/>
+    <entity name="zombiedog" prob="0.01"/>
   </entitygroup>
   <entitygroup name="ZombiesNight">
     <entity name="spiderzombie"/>
@@ -52,6 +54,7 @@
     <entity name="zombieSteveCrawler"/>
     <entity name="Feral Ravager" prob="0.02"/>
     <entity name="Bloated Walker" prob="0.06"/>
+    <entity name="zombiedog" prob="0.01"/>
   </entitygroup>
   <entitygroup name="ZombiesBiomeNight">
     <entity name="spiderzombie"/>
@@ -106,32 +109,32 @@
   <entitygroup name="ZombiesVariety">
     <entity name="zombieBoeSpeed"/>
     <entity name="zombieBoeTank"/>
-    <entity name="zombieBoeSpider"/>
+    <entity name="zombieBoeSpider" prob="0.1"/>
     <entity name="zombieBoeBomber"/>
     <entity name="zombieJoeSpeed"/>
     <entity name="zombieJoeTank"/>
-    <entity name="zombieJoeSpider"/>
+    <entity name="zombieJoeSpider" prob="0.1"/>
     <entity name="ZombieRavager"/>
     <entity name="zombieJoeBomber"/>
     <entity name="zombieArleneSpeed"/>
     <entity name="zombieArleneTank"/>
-    <entity name="zombieArleneSpider"/>
+    <entity name="zombieArleneSpider" prob="0.1"/>
     <entity name="zombieArleneBomber"/>
     <entity name="zombieDarleneSpeed"/>
     <entity name="zombieDarleneTank"/>
-    <entity name="zombieDarleneSpider"/>
+    <entity name="zombieDarleneSpider" prob="0.1"/>
     <entity name="zombieDarleneBomber"/>
     <entity name="zombieMarleneSpeed"/>
     <entity name="zombieMarleneTank"/>
-    <entity name="zombieMarleneSpider"/>
+    <entity name="zombieMarleneSpider" prob="0.1"/>
     <entity name="zombieMarleneBomber"/>
     <entity name="zombieYoSpeed"/>
     <entity name="zombieYoTank"/>
-    <entity name="zombieYoSpider"/>
+    <entity name="zombieYoSpider" prob="0.1"/>
     <entity name="zombieYoBomber"/>
     <entity name="zombieSteveSpeed"/>
     <entity name="zombieSteveTank"/>
-    <entity name="zombieSteveSpider"/>
+    <entity name="zombieSteveSpider" prob="0.1"/>
     <entity name="zombieSteveBomber"/>
   </entitygroup>
   <entitygroup name="ZombiesWasteland">
@@ -436,6 +439,7 @@
     <entity name="zombieArlene"/>
     <entity name="zombieJoe"/>
     <entity name="zombieDarlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS2">
     <entity name="zombieSteve"/>
@@ -451,6 +455,7 @@
     <entity name="ZombieMaleUMA"/>
     <entity name="zombieYo"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS4">
     <entity name="ZombieFemaleUMA"/>
@@ -466,6 +471,7 @@
     <entity name="zombieArlene"/>
     <entity name="zombieJoe"/>
     <entity name="zombieBoe"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS6">
     <entity name="zombieSteveCrawler"/>
@@ -481,6 +487,7 @@
     <entity name="ZombieSkateboarder"/>
     <entity name="ZombieFemaleFatUMA"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS9">
     <entity name="ZombieFemaleUMA"/>
@@ -494,6 +501,7 @@
     <entity name="zombieSteveCrawler"/>
     <entity name="ZombieFemaleFatUMA"/>
     <entity name="burntzombie"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS12">
     <entity name="zombieMarlene"/>
@@ -509,6 +517,7 @@
     <entity name="zombieNurse"/>
     <entity name="ZombieFemaleUMA"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS14">
     <entity name="zombieMarlene"/>
@@ -522,6 +531,7 @@
     <entity name="zombieJoe"/>
     <entity name="zombieYo"/>
     <entity name="ZombieFemaleUMA"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS17">
     <entity name="zombieBoe"/>
@@ -535,6 +545,7 @@
     <entity name="zombieJoe"/>
     <entity name="zombieYo"/>
     <entity name="burntzombie"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS21">
     <entity name="ZombieSkateboarder"/>
@@ -548,6 +559,7 @@
     <entity name="ZombieFemaleFatUMA"/>
     <entity name="zombieDarlene"/>
     <entity name="zombieSteve"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS24">
     <entity name="zombieSteveCrawler"/>
@@ -563,6 +575,7 @@
     <entity name="zombieSteve"/>
     <entity name="zombieYo"/>
     <entity name="zombieDarlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS27">
     <entity name="ZombieCheerleader"/>
@@ -578,6 +591,7 @@
     <entity name="zombieSteve"/>
     <entity name="zombieSteveCrawler"/>
     <entity name="zombieYo"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS31">
     <entity name="burntzombie"/>
@@ -593,6 +607,7 @@
     <entity name="zombieSteveCrawler"/>
     <entity name="zombieSteve"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS35">
     <entity name="zombieDarlene"/>
@@ -608,6 +623,7 @@
     <entity name="zombieSteveCrawler"/>
     <entity name="zombieBoe"/>
     <entity name="ZombieSkateboarder"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS38">
     <entity name="zombieBoe"/>
@@ -623,6 +639,7 @@
     <entity name="burntzombie"/>
     <entity name="zombieMoe"/>
     <entity name="zombieSteveCrawler"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS42">
     <entity name="zombieMarlene"/>
@@ -636,6 +653,7 @@
     <entity name="zombieBoe"/>
     <entity name="ZombieFemaleUMA"/>
     <entity name="ZombieCheerleader"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS46">
     <entity name="zombieDarlene"/>
@@ -649,6 +667,7 @@
     <entity name="zombieJoe"/>
     <entity name="zombieNurse"/>
     <entity name="ZombieFemaleUMA"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS50">
     <entity name="ZombieSkateboarder"/>
@@ -662,6 +681,7 @@
     <entity name="ZombieFemaleFatUMA"/>
     <entity name="zombieMarlene"/>
     <entity name="burntzombie"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS55">
     <entity name="zombieMarlene"/>
@@ -675,6 +695,7 @@
     <entity name="zombieNurse"/>
     <entity name="ZombieSkateboarder"/>
     <entity name="ZombieCheerleader"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS59">
     <entity name="zombieJoe"/>
@@ -690,6 +711,7 @@
     <entity name="zombieArlene"/>
     <entity name="zombieSteve"/>
     <entity name="burntzombie"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS63">
     <entity name="zombieYo"/>
@@ -705,6 +727,7 @@
     <entity name="zombieMoe"/>
     <entity name="zombieSteveCrawler"/>
     <entity name="zombieNurse"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS68">
     <entity name="ZombieFemaleUMA"/>
@@ -718,6 +741,7 @@
     <entity name="zombieDarlene"/>
     <entity name="burntzombie"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS72">
     <entity name="ZombieFemaleFatUMA"/>
@@ -733,6 +757,7 @@
     <entity name="zombieBoe"/>
     <entity name="burntzombie"/>
     <entity name="zombieDarlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS77">
     <entity name="ZombieCheerleader"/>
@@ -748,6 +773,7 @@
     <entity name="zombieArlene"/>
     <entity name="burntzombie"/>
     <entity name="zombieSteve"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS82">
     <entity name="zombieBoe"/>
@@ -763,6 +789,7 @@
     <entity name="ZombieMaleUMA"/>
     <entity name="zombieYo"/>
     <entity name="zombieArlene"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS86">
     <entity name="ZombieSkateboarder"/>
@@ -778,6 +805,7 @@
     <entity name="zombieSteveCrawler"/>
     <entity name="zombieArlene"/>
     <entity name="zombieSteve"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS91">
     <entity name="zombieMoe"/>
@@ -793,6 +821,7 @@
     <entity name="ZombieCheerleader"/>
     <entity name="zombieNurse"/>
     <entity name="zombieYo"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS96">
     <entity name="spiderzombie"/>
@@ -808,6 +837,7 @@
     <entity name="ZombieSkateboarder"/>
     <entity name="ZombieFemaleUMA"/>
     <entity name="burntzombie"/>
+    <entity name="hornet"/>
   </entitygroup>
   <entitygroup name="hordeStageGS101">
     <entity name="ZombieMaleUMA"/>

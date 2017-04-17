@@ -11926,7 +11926,7 @@ kind of free
     <drop event="Harvest" name="spring" count="3" tool_category="Disassemble"/>
     <drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
     <drop event="Harvest" name="gasCan" count="10" prob="0.7"/>
-    <drop event="Harvest" name="gasCan" count="13" prob="0.6" tool_category="Disassemble"/>
+    <drop event="Harvest" name="gasCan" count="20" prob="0.6" tool_category="Disassemble"/>
     <!-- together 150 avg -->
     <drop event="Destroy" name="scrapIron" count="1,15" prob="1"/>
     <drop event="Harvest" name="mechanicalParts" count="2" prob=".2" tool_category="Disassemble"/>
@@ -11960,8 +11960,8 @@ kind of free
     <property name="MultiBlockDim" value="2,2,6"/>
     <property name="ShowModelOnFall" value="false"/>
     <drop event="Harvest" name="shortMetalPipe" count="5" prob="0.5" tool_category="Disassemble"/>
-    <drop event="Harvest" name="gasCan" count="12" prob="0.3"/>
-    <drop event="Harvest" name="gasCan" count="8" prob="0.6375" tool_category="Disassemble"/>
+    <drop event="Harvest" name="gasCan" count="20" prob="0.3"/>
+    <drop event="Harvest" name="gasCan" count="10" prob="0.6375" tool_category="Disassemble"/>
     <!-- together 100 avg -->
     <drop event="Harvest" name="headlight" count="1" prob="0.45" tool_category="Disassemble"/>
     <drop event="Harvest" name="scrapIron" count="20" prob="1" tool_category="Disassemble"/>

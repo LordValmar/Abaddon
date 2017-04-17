@@ -1,5 +1,11 @@
 
-04/2017 ------------------------------------------------------------------------
+CHANGES
+04/17/2017 ---------------------------------------------------------------------
+loot.xml
+ - increased gasCan loot
+
+
+04/01/2017 ---------------------------------------------------------------------
 loot.xml
  - changed lootcontainer id=97-102 to id=225-229 so they have loot and
    disintegrate when looted.
@@ -17,6 +23,7 @@ blocks.xml
  - reduced "cntCar03BlueDamage1" gasCan loot
  - reduced "cntCar03Damage2" gasCan loot
 
-Localization - Quest.txt 
+Localization - Quest.txt
 - Changed "tutorialTipQuest01" to reflect Nightmare Edition
 --------------------------------------------------------------------------------
+
