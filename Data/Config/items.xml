@@ -1279,8 +1279,8 @@ Mesh files no longer used:
     <property name="EconomicValue" value="200"/>
     <property name="CustomIcon" value="stoneAxe"/>
     <property class="Attributes">
-      <property name="EntityDamage" value="10,20"/>
-      <property name="BlockDamage" value="40,104"/>
+      <property name="EntityDamage" value="8,20"/>
+      <property name="BlockDamage" value="25,65"/>
       <property name="DegradationMax" value="300,600"/>
       <property name="DegradationRate" value="1,1"/>
     </property>

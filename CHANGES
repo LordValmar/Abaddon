@@ -4,6 +4,11 @@ CHANGES
 loot.xml
  - increased gasCan loot
 
+items.xml
+ - nerfed Taza's Stone Axe
+
+spawning.xml
+ - changed likelihood of certain spawns
 
 04/01/2017 ---------------------------------------------------------------------
 loot.xml
