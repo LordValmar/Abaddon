@@ -1,15 +1,11 @@
 
 CHANGES
-04/17/2017 ------------------------------------------------------------------------
+04/17/2017 ---------------------------------------------------------------------
 loot.xml
  - increased gasCan loot
 
-progression.xml
- - fixed minibike component requirements (? changed "unlock_level" from 50 to 35)
- - 
 
-
-04/01/2017 ------------------------------------------------------------------------
+04/01/2017 ---------------------------------------------------------------------
 loot.xml
  - changed lootcontainer id=97-102 to id=225-229 so they have loot and
    disintegrate when looted.
@@ -27,25 +23,7 @@ blocks.xml
  - reduced "cntCar03BlueDamage1" gasCan loot
  - reduced "cntCar03Damage2" gasCan loot
 
-Localization - Quest.txt 
+Localization - Quest.txt
 - Changed "tutorialTipQuest01" to reflect Nightmare Edition
 --------------------------------------------------------------------------------
-
-Valmod Abaddon Nightmare Edition FEATURES
-- Added POIs from Magoli CompoPack
-- Using Spider's rwgmixer.xml until we can customize our own
-- Traders only sell clothing
-- Merchant Box recipe removed
-- Complete weapons do not appear in loot
-- Minibike requires player level 35 and mechanical skill 80
-- Overall skill progression is slower and higher level skills needed for new items tiers (stone vs. iron vs. steel, etc.)
-- Added more varieties of zeds
-- Run speed of rabbits, pigs, chickens and deer increased
-- Combine station locked behind Quality Joe 3
-- Ammo box spawn rates decreased
-- Working sink and oven require higher mechanical skill
-- Insulation values removed from all armor. Insulation is determined by the clothing you wear
-- "hard" surfaces boost run speed
-- Military armor no longer lootable, however the pieces can be crafted given a high enough armor crafting skill
-
 
