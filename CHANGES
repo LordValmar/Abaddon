@@ -13,6 +13,9 @@ spawning.xml
 recipes.xml
  - changed keystone recipe
 
+traders.xml
+ - traders have only clothing
+
 04/01/2017 ---------------------------------------------------------------------
 loot.xml
  - changed lootcontainer id=97-102 to id=225-229 so they have loot and
