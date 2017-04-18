@@ -166,7 +166,7 @@ quality_mod: adjusts the price range of all items with a quality level.
       <item name="footballHelmet"/>
       <item name="leatherDuster" prob=".2"/>
       <item name="leatherDusterBlack" prob=".1"/>
-      <item group="hazmatGear" prob=".1"/>
+      <!-- <item group="hazmatGear" prob=".1"/> -->
       <item name="facialPiercings" prob=".1"/>
     </trader_item_group>
     <trader_item_group name="warmClothes">
@@ -1138,146 +1138,19 @@ quality_mod: adjusts the price range of all items with a quality level.
       <item name="tshirtZUWhite"/>
     </trader_item_group>
   </trader_item_groups>
-  <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-tshirtAll
-bandanaAll
-pantsAll
-pufferCoatAll
-shirtLongAll
-skullCapAll
-sweatshirtAll
-tankTopAll
-cowboyHatAll
-hazmatGear
-banditArmor
-hats
-	clothes
-	warmClothes
-	lightArmor
-	heavyArmor
-militaryArmor
-	Armor
-commonWeaponParts
-militaryWeaponParts
-meleeWeapon
-crossbow+ammo
-rareMedicine
-medicine
-questChallenge
-commonBooks
-rareBooks
-books
-guns
-ammo
-ammoSupplies
-seeds
-cannedfood
-foodSupplies
-preparedFood
-preparedDrink
-constructionSupplies
-generalResources
-rareTools
-tools
-workstations
-
--->
   <!-- Trader 1, carries better weapons at higher levels. -->
   <!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
   <trader_info id="1" override_buy_markup="5.0" min_inventory="20" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="3" open_time="6:05" close_time="21:50">
     <trader_items count="all">
-      <item group="traderAlways"/>
-      <item group="traderGeneral" count="4,8"/>
-      <item group="generalResources" count="9,14"/>
-      <item group="constructionSupplies" count="2,8"/>
-      <item group="decorativeBlocks" count="2,7"/>
-      <item group="tools" count="0,2"/>
-      <item group="commonWeaponParts" count="0,3"/>
-      <item group="lightArmor" count="1"/>
-      <!-- <item group="ItemsAndBlocksTest" count="10,50" /> -->
+      <item group="clothes"/>
+      <item group="warmClothes"/>
     </trader_items>
-    <tier_items level="1,25" count="1,2">
-      <item group="militaryWeaponParts" count="1"/>
-      <item group="commonWeaponParts" count="1,2" prob="0.3"/>
-      <item group="ammo" count="2,3" prob="0.4"/>
-      <item group="heavyArmor" count="1" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.1"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
-    <tier_items level="25,50" count="1,3">
-      <item group="militaryWeaponParts" count="1"/>
-      <item group="commonWeaponParts" count="1,2" prob="0.3"/>
-      <item group="ammo" count="2,4" prob="0.4"/>
-      <item group="heavyArmor" count="1" prob="0.2"/>
-      <item group="militaryArmor" count="1" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.1"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
-    <tier_items level="50,-1" count="2,5">
-      <item name="cntVendingMachine" count="1" prob="1"/>
-      <item group="militaryWeaponParts" count="1"/>
-      <item group="commonWeaponParts" count="1,2" prob="0.3"/>
-      <item group="ammo" count="2,4" prob="0.4"/>
-      <item group="heavyArmor" count="1" prob="0.2"/>
-      <item group="militaryArmor" count="1" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.1"/>
-      <item group="rareBooks" count="1" prob="0.2"/>
-      <item group="minibikeParts" count="1" prob="0.2"/>
-      <item name="nightvisionGoggles" count="1" prob=".2"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
   </trader_info>
-  <!-- Trader 2, carries better tools and construction material at higher levels. -->
-  <!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
   <trader_info id="2" override_buy_markup="5.0" min_inventory="20" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="3" open_time="6:05" close_time="21:50">
     <trader_items count="all">
-      <item group="traderAlways"/>
-      <item group="traderGeneral" count="4,8"/>
-      <item group="generalResources" count="11,17"/>
-      <item group="constructionSupplies" count="4,12"/>
-      <item group="decorativeBlocks" count="2,7"/>
-      <item group="tools" count="0,2"/>
-      <item group="commonWeaponParts" count="0,2"/>
-      <item group="lightArmor" count="1,3"/>
+      <item group="clothes"/>
+      <item group="warmClothes"/>
     </trader_items>
-    <tier_items level="1,25" count="1,3">
-      <item group="commonWeaponParts" count="1" prob="0.2"/>
-      <item group="constructionSupplies" count="2,3" prob="1"/>
-      <item group="generalResources" count="4,7" prob="1"/>
-      <item group="tools" count="1,2" prob="1"/>
-      <item group="rareTools" count="1" prob="0.5"/>
-      <item group="ammoSupplies" count="2,3" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.4"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
-    <tier_items level="25,50" count="1,4">
-      <item group="commonWeaponParts" count="1" prob="0.2"/>
-      <item group="constructionSupplies" count="2,3" prob="1"/>
-      <item group="generalResources" count="3,4" prob="1"/>
-      <item group="tools" count="1,2" prob="1"/>
-      <item group="rareTools" count="1" prob="0.5"/>
-      <item group="ammoSupplies" count="2,3" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.4"/>
-      <item group="hazmatGear" count="1" prob="0.2"/>
-      <item group="workstations" count="1" prob="0.3"/>
-      <item group="minibikeParts" count="1" prob="0.2"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
-    <tier_items level="50,-1" count="2,6">
-      <item name="cntVendingMachine" count="1" prob="1"/>
-      <item group="commonWeaponParts" count="1" prob="0.2"/>
-      <item group="constructionSupplies" count="2,3" prob="1"/>
-      <item group="generalResources" count="3,4" prob="1"/>
-      <item group="tools" count="1,2" prob=".9"/>
-      <item group="rareTools" count="1" prob="0.6"/>
-      <item group="ammoSupplies" count="2,3" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.4"/>
-      <item group="hazmatGear" count="1" prob="0.4"/>
-      <item group="workstations" count="1" prob="0.5"/>
-      <item group="minibikeParts" count="1" prob="0.4"/>
-      <item name="nightvisionGoggles" count="1" prob=".2"/>
-      <item name="miningHelmet" prob="0.5"/>
-    </tier_items>
   </trader_info>
   <!-- Player Owned - Vending Machine -->
   <trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true"/>
@@ -1299,23 +1172,8 @@ workstations
   <!-- Merchant Delivery Box -->
   <trader_info id="20" reset_interval="2" override_buy_markup="5.0" allow_sell="false" min_inventory="4" max_inventory="6" min_items_swapped="4" max_items_swapped="6">
     <trader_items count="10">
-      <item name="bottledWater" count="1,2"/>
-      <item name="goldenRodTea" count="1,2"/>
-      <item name="redTea" count="1,2"/>
-      <item name="beer" count="1,2"/>
-      <item name="canSoup" count="1,2"/>
-      <item name="lokiMeat" count="1,2"/>
-      <item group="traderAlways"/>
-      <item group="traderGeneral" count="4,8"/>
-      <item group="generalResources" count="9,14"/>
-      <item group="constructionSupplies" count="2,8"/>
-      <item group="tools" count="0,2"/>
-      <item group="commonWeaponParts" count="0,3"/>
-      <item group="militaryWeaponParts" count="1"/>
-      <item group="ammo" count="2,3" prob="0.4"/>
-      <item group="heavyArmor" count="1" prob="0.4"/>
-      <item group="banditArmor" count="1" prob="0.1"/>
-      <item name="miningHelmet" prob="0.5"/>
+      <item group="clothes"/>
+      <item group="warmClothes"/>
     </trader_items>
   </trader_info>
   <!-- Quest Board -->
@@ -1324,27 +1182,10 @@ workstations
       <item group="questChallenge" count="1"/>
     </trader_items>
   </trader_info>
-  <!-- Trader 99/Test, carries a selection of everything -->
   <trader_info id="99" min_inventory="50" max_inventory="600" min_items_swapped="13" max_items_swapped="13" reset_interval="3" open_time="6:05" close_time="21:50">
-    <trader_items count="all">
-      <item group="traderAlways"/>
-      <item group="traderGeneral" count="4,8"/>
-      <item group="generalResources" count="8,12"/>
-      <item group="constructionSupplies" count="4,12"/>
-      <item group="decorativeBlocks" count="2,7"/>
-      <item group="tools" count="0,2"/>
-      <item group="commonWeaponParts" count="0,2"/>
-      <item group="lightArmor" count="1,3"/>
-      <item group="ItemsAndBlocksTest"/>
+    <trader_items count="10">
+      <item group="clothes"/>
+      <item group="warmClothes"/>
     </trader_items>
-    <tier_items level="1,25" count="1,3">
-      <item name="silverNugget" count="1,9"/>
-    </tier_items>
-    <tier_items level="25,50" count="1,4">
-      <item name="goldNugget" count="1,9"/>
-    </tier_items>
-    <tier_items level="50,-1" count="2,6">
-      <item name="rawDiamond" count="1,9"/>
-    </tier_items>
   </trader_info>
 </traders>
