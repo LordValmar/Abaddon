@@ -16,6 +16,10 @@ recipes.xml
 traders.xml
  - traders have only clothing
 
+progression.xml
+ - fixed minibike perk (set recipes unlock_level=10)
+ - increased scavenging skill point cost from 1 to 3
+
 04/01/2017 ---------------------------------------------------------------------
 loot.xml
  - changed lootcontainer id=97-102 to id=225-229 so they have loot and
