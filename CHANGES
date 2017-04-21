@@ -6,6 +6,7 @@ loot.xml
 
 items.xml
  - nerfed Taza's Stone Axe
+ - removed insulation from animal hide armor
 
 spawning.xml
  - changed likelihood of certain spawns
@@ -18,7 +19,6 @@ traders.xml
 
 progression.xml
  - fixed minibike perk (set recipes unlock_level=10)
- - increased scavenging skill point cost from 1 to 3
 
 04/01/2017 ---------------------------------------------------------------------
 loot.xml
