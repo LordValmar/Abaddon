@@ -4,6 +4,21 @@ CHANGES
 loot.xml
  - increased gasCan loot
 
+items.xml
+ - nerfed Taza's Stone Axe
+ - removed insulation from animal hide armor
+
+spawning.xml
+ - changed likelihood of certain spawns
+
+recipes.xml
+ - changed keystone recipe
+
+traders.xml
+ - traders have only clothing
+
+progression.xml
+ - fixed minibike perk (set recipes unlock_level=10)
 
 04/01/2017 ---------------------------------------------------------------------
 loot.xml

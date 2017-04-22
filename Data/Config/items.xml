@@ -1279,8 +1279,8 @@ Mesh files no longer used:
     <property name="EconomicValue" value="200"/>
     <property name="CustomIcon" value="stoneAxe"/>
     <property class="Attributes">
-      <property name="EntityDamage" value="10,20"/>
-      <property name="BlockDamage" value="40,104"/>
+      <property name="EntityDamage" value="8,20"/>
+      <property name="BlockDamage" value="25,65"/>
       <property name="DegradationMax" value="300,600"/>
       <property name="DegradationRate" value="1,1"/>
     </property>
@@ -3343,7 +3343,7 @@ which does not exist, yet. -->
   </item>
   <item id="364" name="animalHideBoots">
     <!-- armorMasterHideArmor -->
-    <property name="Insulation" value="2"/>
+    <property name="Insulation" value="0"/>
     <property name="Encumbrance" value="0.02"/>
     <property name="Material" value="animalHide"/>
     <property name="RepairTools" value="leather"/>
@@ -4400,7 +4400,7 @@ which does not exist, yet. -->
     </property>
   </item>
   <item id="481" name="animalHidePoncho">
-    <property name="Insulation" value="-20"/>
+    <property name="Insulation" value="0"/>
     <property name="Waterproof" value="0.45"/>
     <property name="Meshfile" value="Items/Misc/sackPrefab"/>
     <property name="HoldType" value="45"/>

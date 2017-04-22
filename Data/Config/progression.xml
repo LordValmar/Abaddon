@@ -68,7 +68,7 @@
         <add perk_level="5" value=".5"/>
       </effect>
     </perk>
-    <player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss. Level 20 unlocks Lockpicks." title_key="scavenging" group="scavenging">
+    <player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss. Level 20 unlocks Lockpicks." title_key="scavenging" group="scavenging" skill_point_cost_per_level="1">
       <effect name="LootTime">
         <multiply skill_level="1,10" value="1,0.76"/>
         <multiply skill_level="10,20" value="0.76,0.66"/>
@@ -1159,13 +1159,13 @@
       <recipe name="auger" unlock_level="40"/>
       <recipe name="partsAuger_blade" unlock_level="40"/>
     </crafting_skill>
-    <perk name="Minibike" icon="misc_crafting" description_key="Max this perk to learn how to craft a minibike." title_key="Minibike" max_level="50" skill_point_cost_per_level="1" group="weapons">
+    <perk name="Minibike" icon="misc_crafting" description_key="Max this perk to learn how to craft a minibike. Player must be level 35 and have a mechanical skill of 80 to buy this perk." title_key="Minibike" max_level="10" skill_point_cost_per_level="1" group="weapons">
       <requirement perk_level="10" required_skill_name="Mechanical" required_skill_level="80"/>
       <requirement perk_level="10" required_player_level="35"/>
-      <recipe name="minibikeChassis" unlock_level="50"/>
-      <recipe name="minibikeWheels" unlock_level="50"/>
-      <recipe name="minibikeSeat" unlock_level="50"/>
-      <recipe name="minibikeHandlebars" unlock_level="50"/>
+      <recipe name="minibikeChassis" unlock_level="10"/>
+      <recipe name="minibikeWheels" unlock_level="10"/>
+      <recipe name="minibikeSeat" unlock_level="10"/>
+      <recipe name="minibikeHandlebars" unlock_level="10"/>
     </perk>
     <crafting_skill name="Traps" exp_to_level="230" icon="misc_crafting" description_key="Learn how to craft improvised traps. Every ten levels unlocks a new tier up to level 70." title_key="Traps" group="tools">
       <effect name="CraftingTime">
