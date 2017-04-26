@@ -1160,8 +1160,8 @@
       <recipe name="partsAuger_blade" unlock_level="40"/>
     </crafting_skill>
     <perk name="Minibike" icon="misc_crafting" description_key="Max this perk to learn how to craft a minibike." title_key="Minibike" max_level="50" skill_point_cost_per_level="1" group="weapons">
-      <requirement perk_level="10" required_skill_name="Mechanical" required_skill_level="80"/>
-      <requirement perk_level="10" required_player_level="35"/>
+      <requirement perk_level="50" required_skill_name="Mechanical" required_skill_level="80"/>
+      <requirement perk_level="50" required_player_level="35"/>
       <recipe name="minibikeChassis" unlock_level="50"/>
       <recipe name="minibikeWheels" unlock_level="50"/>
       <recipe name="minibikeSeat" unlock_level="50"/>
