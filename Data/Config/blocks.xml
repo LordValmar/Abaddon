@@ -15260,7 +15260,7 @@ kind of free
     <property name="Model" value="Entities/Trees/White_Oak22Prefab"/>
     <property name="ParticleOnDeath" value="treeGib_burnt"/>
     <property name="ModelOffset" value="0,-0.3,0"/>
-    <drop event="Harvest" name="wood" count="25"/>
+    <drop event="Harvest" name="wood" count="5"/>
     <drop event="Destroy" name="wood" count="12" prob="1"/>
     <drop event="Destroy" name="seedApple" count="1,2" prob=".5"/>
     <property name="UpwardsCount" value="3"/>
@@ -15270,6 +15270,7 @@ kind of free
       <property name="FertileLevel" value="1"/>
       <property name="IsRandom" value="false"/>
     </property>
+		<property name="MaxDamage" value="40" />
   </block>
   <block id="2031" name="seedLeek">
     <property name="IsDeveloper" value="true"/>
