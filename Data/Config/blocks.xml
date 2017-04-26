@@ -15270,7 +15270,7 @@ kind of free
       <property name="FertileLevel" value="1"/>
       <property name="IsRandom" value="false"/>
     </property>
-		<property name="MaxDamage" value="40" />
+	<property name="MaxDamage" value="40"/>
   </block>
   <block id="2031" name="seedLeek">
     <property name="IsDeveloper" value="true"/>
