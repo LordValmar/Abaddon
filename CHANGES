@@ -14,6 +14,12 @@ buffs.xml
 rwgmixer.xml
  - reduced likelihood of bunkers spawning
 
+entitygroups.xml
+ - changed chances of spawning certain types of zeds, both in general terms and
+   for horde night
+
+entityclasses.xml
+ - changed characteristics of certain zeds
 
 04/17/2017 ---------------------------------------------------------------------
 loot.xml
