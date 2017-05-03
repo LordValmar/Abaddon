@@ -1644,10 +1644,10 @@
       </effect>
     </perk>
     <perk name="Gun Rocket" icon="rifle" description_key="Max out this perk to learn how to assemble a rocket launcher." title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
-      <recipe name="gunRocketLauncher" unlock_level="80"/>
-      <recipe name="rocket" unlock_level="80"/>
-      <recipe name="rocketCasing" unlock_level="80"/>
-      <recipe name="rocketTip" unlock_level="80"/>
+      <recipe name="gunRocketLauncher" unlock_level="30"/>
+      <recipe name="rocket" unlock_level="30"/>
+      <recipe name="rocketCasing" unlock_level="30"/>
+      <recipe name="rocketTip" unlock_level="30"/>
     </perk>
     <perk name="Electric Lights" icon="misc_crafting" description_key="Max out this perk to learn how to craft electric lights at the decor artisan station." title_key="Electrician" max_level="12" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
       <requirement perk_level="12" required_skill_name="Mechanical" required_skill_level="10"/>

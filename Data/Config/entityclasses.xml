@@ -451,10 +451,10 @@
     <property name="SoundSense" value="Enemies/Acid_Puking_Hulk/hulksense"/>
     <property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="5"/>
-    <property name="Explosion.RadiusEntities" value="6"/>
-    <property name="Explosion.BlockDamage" value="500"/>
-    <property name="Explosion.EntityDamage" value="150"/>
+    <property name="Explosion.RadiusBlocks" value="9"/>
+    <property name="Explosion.RadiusEntities" value="8"/>
+    <property name="Explosion.BlockDamage" value="750"/>
+    <property name="Explosion.EntityDamage" value="250"/>
     <property name="Explosion.DamageBonus.earth" value="0"/>
     <property name="ExperienceGain" value="850"/>
     <property name="HeadDismemberBonusChance" value="0.08"/>
@@ -1080,6 +1080,7 @@
     <property name="IsEnemyEntity" value="false"/>
     <property name="Explosion.ParticleIndex" value="6"/>
     <property name="Explosion.RadiusBlocks" value="6"/>
+    <property name="Explosion.BlockDamage" value="350"/>
     <property name="Explosion.RadiusEntities" value="6"/>
     <property name="RotateToGround" value="true"/>
     <!-- uncomment this to have minibikes show on the map
@@ -1381,7 +1382,8 @@
     <property name="LootListOnDeath" value="87"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
+    <property name="Explosion.RadiusBlocks" value="6"/>
+    <property name="Explosion.BlockDamage" value="350"/>
     <property name="Explosion.RadiusEntities" value="4"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
@@ -1784,8 +1786,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="5"/>
+    <property name="Explosion.BlockDamage" value="350"/>
+    <property name="Explosion.RadiusEntities" value="8"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
@@ -1830,8 +1833,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="5"/>
+    <property name="Explosion.BlockDamage" value="350"/>
+    <property name="Explosion.RadiusEntities" value="8"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
@@ -1876,8 +1880,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="5"/>
+    <property name="Explosion.BlockDamage" value="350"/>
+    <property name="Explosion.RadiusEntities" value="8"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
@@ -1922,7 +1927,8 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
+    <property name="Explosion.RadiusBlocks" value="4"/>
+    <property name="Explosion.BlockDamage" value="250"/>
     <property name="Explosion.RadiusEntities" value="4"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
@@ -1968,8 +1974,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="4"/>
+    <property name="Explosion.BlockDamage" value="250"/>
+    <property name="Explosion.RadiusEntities" value="5"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
@@ -2014,8 +2021,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="5"/>
+    <property name="Explosion.BlockDamage" value="350"/>
+    <property name="Explosion.RadiusEntities" value="8"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
@@ -2060,8 +2068,9 @@
     <property name="WalkType" value="2"/>
     <property name="Class" value="EntityZombieCop"/>
     <property name="Explosion.ParticleIndex" value="8"/>
-    <property name="Explosion.RadiusBlocks" value="2"/>
-    <property name="Explosion.RadiusEntities" value="4"/>
+    <property name="Explosion.RadiusBlocks" value="5"/>
+    <property name="Explosion.BlockDamage" value="350"/>
+    <property name="Explosion.RadiusEntities" value="6"/>
     <property name="HeadDismemberThreshold" value="0"/>
     <property name="LowerLegDismemberThreshold" value="0"/>
     <property name="UpperLegDismemberThreshold" value="0"/>
