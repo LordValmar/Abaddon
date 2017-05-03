@@ -1359,7 +1359,7 @@
       <recipe name="stewChunkyMeat" unlock_level="60"/>
       <recipe name="fruitBowl" unlock_level="60"/>
       <recipe name="mealDinner" unlock_level="60"/>
-      <recipe name="mealBreakfast" unlock_level="50"/>
+      <recipe name="mealBreakfast" unlock_level="60"/>
     </crafting_skill>
     <crafting_skill name="Miscellaneous Crafting" exp_to_level="320" icon="misc_crafting" description_key="miscCraftingDesc" title_key="miscCrafting" group="crafting">
       <effect name="CraftingTime">
