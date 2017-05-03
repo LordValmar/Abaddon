@@ -126,6 +126,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
     <property name="Map.Color" value="150,10,10"/>
     <property name="CanMobsSpawnOn" value="false"/>
     <property name="CanPlayersSpawnOn" value="false"/>
+	 <property name="BuffsWhenWalkedOn" value="Radiation"/>
     <property name="Group" value="Decor/Miscellaneous"/>
   </block>
   <block id="6" name="potassiumNitrate">

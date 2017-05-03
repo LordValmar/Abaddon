@@ -491,6 +491,11 @@ snowberryPlant feeds you for 90 sec. -->
     <modify id="0" stat="speedmodifier" modifyMaxValue="1.3"/>
     <modify id="1" stat="speedmodifier" modifyValue="1.3"/>
   </buff>
+   <buff id="Radiation" name_key="Radiation" type="bleeding" duration="5" actions="increment(@wellness, -0.01, 5, 0, 0)" tooltip_key="Your feet feel warm" description_key="You are on radiated soil.(Wellness loss 0.01)" icon="ui_game_symbol_radiation">
+	  <modify id="0" stat="stamina" amount="-5" rate="1" />
+	  <modify id="1" stat="health" amount="-2" rate="1" />
+	</buff>
+
   <buff id="Regen" mutex="AcidSplash" duration="1.5" ffcheck="true" actions="attach(ParticleEffects/p_signal_flareprefab, @impact)"/>
   <!--
 This requires a 50+ food bar:
