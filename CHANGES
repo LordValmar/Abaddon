@@ -1,5 +1,20 @@
 
 CHANGES
+05/03/2017 ---------------------------------------------------------------------
+progression.xml
+ - fixed rocket, should be buildable now
+ - fixed military armor skill req.
+
+recipes.xml
+ - small changes, mostly fixing typos
+
+buffs.xml
+ - added radiated earth back. Don't eat the green dirt!
+
+rwgmixer.xml
+ - reduced likelihood of bunkers spawning
+
+
 04/17/2017 ---------------------------------------------------------------------
 loot.xml
  - increased gasCan loot
