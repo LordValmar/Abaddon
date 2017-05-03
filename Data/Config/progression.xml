@@ -1082,11 +1082,11 @@
       <recipe name="steelChestplate" unlock_level="50"/>
       <recipe name="steelHelmet" unlock_level="50"/>
       <recipe name="steelGloves" unlock_level="50"/>
-      <recipe name="militaryGloves" unlock_level="50"/>
-      <recipe name="militaryHelmet" unlock_level="50"/>
-      <recipe name="militaryBoots" unlock_level="50"/>
-      <recipe name="militaryLegArmor" unlock_level="50"/>
-      <recipe name="militaryVest" unlock_level="50"/>
+      <recipe name="militaryGloves" unlock_level="80"/>
+      <recipe name="militaryHelmet" unlock_level="80"/>
+      <recipe name="militaryBoots" unlock_level="80"/>
+      <recipe name="militaryLegArmor" unlock_level="80"/>
+      <recipe name="militaryVest" unlock_level="80"/>
     </crafting_skill>
     <crafting_skill name="Mechanical" icon="misc_crafting" description_key="This skill levels the more you work with electronics and mechanical gear. Level 20/25/30/40 unlocks the chainsaw/nailgun/auger. Level 30 unlocks gear mechanisms and mechanical parts." title_key="Mechanical Skills" group="crafting">
       <effect name="CraftingTime">
