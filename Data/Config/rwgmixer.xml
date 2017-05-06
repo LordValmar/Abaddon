@@ -293,7 +293,6 @@
       <prefab name="xcostum_Farm(by_BigC90210)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Firehouse(by_Warsaken)" min_count="1" max_count="2"/>
       <prefab name="xcostum_FuneralHome_city(by_Wsiegel)" max_count="1"/>
-      <prefab name="xcostum_Haulier_lg(by_Limodor)" min_count="1" max_count="1"/>
       <prefab name="xcostum_House(by_LastI)" min_count="1" max_count="1"/>
       <prefab name="xcostum_House(by_ShoNuff)" min_count="1" max_count="1"/>
       <prefab name="xcostum_kwikemartcity(by_magoli)" min_count="1" max_count="1"/>
@@ -379,7 +378,7 @@
       <prefab name="xcostum_Coronado_barn_lg(by_Slaan)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Coronado_barn_lg2(by_Slaan)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Coronado_cornfield_crash(by_Slaan)" min_count="1" max_count="1"/>
-      <prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" min_count="1" max_count="1"/>
+      <prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" min_count="0" max_count="1"/>
       <prefab name="xcostum_Coronado_farm_lake(by_Slaan)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Coronado_farmedField(by_Slaan)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Coronado_farmSheds(by_Slaan)" min_count="1" max_count="1"/>
@@ -389,7 +388,6 @@
       <prefab name="xcostum_Coronado_Farm(by_BigC90210)" min_count="1" max_count="1"/>
       <prefab name="xcostum_Coronado_House(by_ShoNuff)" min_count="1" max_count="1"/>
       <prefab name="xvanilla_gas_station1(for_CoronadoCity)" min_count="1" max_count="1"/>
-      <prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="1"/>
       <prefab name="xvanilla_police_station1(for_CoronadoCity)" max_count="1"/>
       <prefab name="xvanilla_bombshelter_lg_01(for_CoronadoCity)" max_count="1" prob="0.1"/>
       <prefab name="xvanilla_house_new_mansion_03(for_CoronadoCity)" max_count="1"/>
@@ -549,12 +547,10 @@
       <prefab name="xcostum_Hightop(by_Curbolt)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_Glass_factory_big(by_Khyber)" max_count="1" prob="0.3"/>
       <prefab name="xcostum_Cantine(by_Limodor)" max_count="1" prob="0.2"/>
-      <prefab name="xcostum_Haulier_md(by_Limodor)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_Bank(by_Limodor)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_Cabin(by_Sudo)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_Church(by_Guppycur)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_minigolf(by_magoli)" max_count="1" prob="0.2"/>
-      <prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_timbershop(by_magoli)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" prob="0.2"/>
       <prefab name="xcostum_kwikemart(by_magoli)" max_count="1" prob="0.2"/>
@@ -995,7 +991,6 @@
       <prefab name="xcostum_Warehouse(by_Batman)"/>
       <prefab name="xcostum_Farm(by_BigC90210)"/>
       <prefab name="xvanilla_graveyard_sm"/>
-      <prefab name="xcostum_Haulier_md(by_Limodor)"/>
       <!--	<prefab name="xcostum_Household_Storage_sm(by_Devilhunter)" />  -->
       <prefab name="xcostum_Info_Center(by_LuckyStar)"/>
     </prefab_rule>
@@ -1081,7 +1076,6 @@
       <prefab name="xvanilla_oldwest_watertower"/>
       <prefab name="xcostum_oldwestBank(by_magoli)"/>
       <prefab name="xvanilla_church_graveyard1"/>
-      <prefab name="xcostum_Haulier_md(by_Limodor)"/>
       <prefab name="xcostum_Cantine(by_Limodor)"/>
       <prefab name="xvanilla_potatofield1"/>
       <prefab name="xcostum_Pawnshop(by_magoli)"/>
@@ -1148,7 +1142,6 @@
       <prefab name="xcostum_TruckStop(Industrial_Hub)(by_magoli)"/>
       <prefab name="xcostum_FuneralParlor(by_Zombieman)"/>
       <prefab name="xcostum_Glass_factory_big(by_Khyber)"/>
-      <prefab name="xcostum_Haulier_lg(Industrial_Hub)(by_Limodor)"/>
       <prefab name="xcostum_Office(IndustrialHub)(by_Wsiegel)"/>
       <prefab name="xcostum_Hightop(by_Curbolt)"/>
       <prefab name="xcostum_Storage(IndustrialHub)(by_ShoNuff)"/>
@@ -1248,8 +1241,6 @@
       <!-- 76x55 -->
       <!-- 45er-part -->
       <lot min_x_y="-111,29" prefab="xcostum_TruckStop(Industrial_Hub)(by_magoli)" rotation_to_road="0"/>
-      <!-- 45x45 -->
-      <lot min_x_y="-62, 29" prefab="xcostum_Haulier_lg(Industrial_Hub)(by_Limodor)" rotation_to_road="0"/>
       <!-- 45x45 -->
       <lot min_x_y="-4, 38" prefab="xvanilla_factory_lg_01" rotation_to_road="0"/>
       <!-- 65x54 -->
@@ -1471,7 +1462,6 @@
       <lot min_x_y="18, -18" prefab="xvanilla_oldwest_hotel_01" rotation_to_road="0"/>
       <!-- understreet -->
       <lot min_x_y="-90,-30" prefab="xcostum_oldwestBank(by_magoli)" rotation_to_road="0"/>
-      <lot min_x_y="-70,-30" prefab="xcostum_Haulier_md(by_Limodor)" rotation_to_road="0"/>
       <lot min_x_y="-44,-31" prefab="xcostum_Wooden_Store(by_Guppycur)" rotation_to_road="0"/>
       <!-- zombiepack -->
       <lot min_x_y="-44,-0" prefab="xcostum_zombiepack01(10by10)" rotation_to_road="0"/>

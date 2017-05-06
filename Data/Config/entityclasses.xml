@@ -1083,6 +1083,7 @@
     <property name="Explosion.BlockDamage" value="350"/>
     <property name="Explosion.RadiusEntities" value="6"/>
     <property name="RotateToGround" value="true"/>
+	 <property name="MapIcon" value="ui_game_symbol_minibike" />
     <!-- uncomment this to have minibikes show on the map
 	<property name="MapIcon" value="ui_game_symbol_minibike" />
 	-->
