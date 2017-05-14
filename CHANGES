@@ -1,5 +1,16 @@
 
 CHANGES
+05/12/2017 ---------------------------------------------------------------------
+progression.xml
+ - added padlock as "Mechanical" skill (lvl 50)
+ - "Scavenging" now requires 2 skill points to purchase a level
+
+recipes.xml
+ - padlock recipe added
+
+loot.xml
+ - padlock removed from loot
+
 05/03/2017 ---------------------------------------------------------------------
 progression.xml
  - fixed rocket, should be buildable now
@@ -20,6 +31,7 @@ entitygroups.xml
 
 entityclasses.xml
  - changed characteristics of certain zeds
+ - enabled minibike map icon
 
 04/17/2017 ---------------------------------------------------------------------
 loot.xml

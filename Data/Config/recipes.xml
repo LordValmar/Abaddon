@@ -4471,6 +4471,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="forgedSteel" count="10"/>
     <ingredient name="rebarFrameBlock" count="1"/>
   </recipe>
+  <recipe name="padlock" count="1" craft_area="workbench" craft_tool="welding_torch">
+    <ingredient name="forgedSteel" count="1"/>
+    <ingredient name="mechanicalParts" count="5"/>
+    <ingredient name="partsChainsaw_blade" count="1"/>
+  </recipe>
   <!-- Merchant Mod -->
   <!-- Valmod Temp Remove for Performance
 <recipe name="survivorNotes" count="1" craft_area="workstationMerchant" craft_time="1300">
